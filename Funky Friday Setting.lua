@@ -1,10 +1,9 @@
 --You Can Change Whatever You Want. Except I Say don't change 
-local noteScaleD = 0.5 --Scale Of DAD/Opponent,Default:0.7
-local noteScaleB = 1.0 --Scale Of BF/Player,Default:0.7
+local noteScaleD = 0.7 --Scale Of DAD/Opponent,Default:0.7
+local noteScaleB = 0.7 --Scale Of BF/Player,Default:0.7
 local noteOffsetX = -50 --Note OffsetX(Don't Change)
 local noteOffsetY = -100 -- NOte OffsetY(Don't Change)
-local backgroundNoteAlpha = 0.0 --Background Note(From 0 To 1)
-
+local backgroundNoteAlpha = 1.0 --Background Note(From 0 To 1)
 function onCreatePost()
     setProperty('camHUD.alpha', 0)
     --Background Note
@@ -131,4 +130,22 @@ function onTimerCompleted(tag, loops, loopsLeft)
         noteTweenAlpha('note_4_Bf', 7, 1, 1)
     end
 end
+
+
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛🟪🟪🟪⬛⬛⬛⬛⬛⬛🟪🟪🟪⬛⬛
+--⬛⬛🟪🟪🟪⬛⬛⬛⬛⬛⬛🟪🟪🟪⬛⬛
+--⬛⬛🟪🟪🟪🟪🟪⬛⬛🟪🟪🟪🟪🟪⬛⬛
+--⬛⬛🟪🟪🟪🟪🟪⬛⬛🟪🟪🟪🟪🟪⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛🟪🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛🟪🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛
+--⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 --Subscribe DubstepEnderDragon
